@@ -1,0 +1,124 @@
+.cartPage {
+  display: scroll;
+  grid-template-columns: 1fr;
+  column-gap: 90rem;
+}
+.cartContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 95vw;
+  justify-content: center;
+  justify-items: center;
+}
+.link-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  column-gap: 1px;
+}
+
+.line {
+  justify-self: center;
+  grid-column: 1/-1;
+  margin-top: 30px;
+  width: 70%;
+  border-bottom: 1px solid #e5e5e5;
+}
+.miniLink-btn {
+  width: 35%;
+  text-decoration: none;
+  background: transparent;
+  border-color: transparent;
+  text-transform: capitalize;
+  padding: 0.25rem 0.5rem;
+  background: hsl(22, 31%, 52%);
+  color: #fff;
+  border-radius: 0.25rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  cursor: pointer;
+  justify-self: end;
+}
+.viewBtn {
+  width: 5vw;
+  font-size: 0.7rem;
+  background: #fff;
+  color: #222;
+  text-align: center;
+  border: 1px solid rgb(117, 116, 116);
+}
+.Counter {
+  padding-left: 20px;
+  text-align: left;
+}
+.check-btn {
+  text-align: center;
+  width: 5vw;
+  background: #5ece7b;
+  font-size: 0.7rem;
+}
+.min-brand {
+  color: #1d1f22;
+  font-size: 0.7rem;
+}
+.minName {
+  color: #1d1f22;
+  font-size: 0.7rem;
+}
+.price {
+  color: #1d1f22;
+  font-size: 0.7rem;
+}
+
+.miniCartImg {
+  width: 4vw;
+  height: 4vw;
+}
+.imageContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cartContainer {
+  text-align: left;
+  width: 100%;
+}
+
+.btn {
+  width: 15vw;
+  text-transform: uppercase;
+  background: hsl(22, 31%, 52%);
+  text-decoration: none;
+  color: hsl(22, 31%, 88%);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  font-weight: 400;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  border-color: transparent;
+}
+.btn:hover {
+  color: hsl(22, 28%, 21%);
+  background: hsl(22, 31%, 67%);
+}
+.min-amount-button {
+  text-align: center;
+  font-size: 0.8rem;
+  width: 1.5vw;
+  height: 1.5vw;
+  color: rgb(117, 116, 116);
+  background-color: #fff;
+  border: 1px solid #1d1f22;
+}
+.min-amount-para {
+  padding-left: 0.3rem;
+  font-size: 1rem;
+  text-align: left;
+}
+.clear {
+  border: none;
+  font-size: 1rem;
+}
